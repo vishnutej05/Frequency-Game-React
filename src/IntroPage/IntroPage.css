@@ -1,0 +1,75 @@
+/* IntroPage.css */
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #ff7e5f,
+    #feb47b
+  ); /* Gradient background */
+  color: white;
+  font-family: 'Arial', sans-serif;
+  position: relative; /* Position relative for positioning the navbar */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3); /* Transparent background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Optional: adds a blur effect */
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+.navbar-logo {
+  width: 150px; /* Adjust the size as needed */
+}
+
+.intro-content {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Slightly transparent background for better readability */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+  margin-top: 60px; /* Space for the fixed navbar */
+}
+
+.intro-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.start-button {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #218838;
+}
