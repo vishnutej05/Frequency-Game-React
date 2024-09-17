@@ -1,20 +1,20 @@
 <h1 style="
   color: #5b14c7; 
   font-weight: 1000;
-">Frequency Game</h1>
+">Flex Reflex - Frequency Game</h1>
 
-In this project, I have developed the Frequency Game, an engaging ReactJS application designed to challenge users' memory skills through emoji-based interactions. The game offers an interactive experience where players test their ability to recall previously clicked emojis, avoiding any repetitions.
+In this project, I have developed **Flex Reflex**, an interactive web-based game designed to test users' reflexes and attention to frequencies. Built with React, this game challenges users to click on specific frequencies within a limited time, improving their reaction speed and accuracy.
 
-### Link: https://github.com/vishnutej05/Frequency-Game-React
+### Link: https://flexreflex.ccbp.tech/
 
 The key components and functionalities of this project include:
 
-- **Emoji Grid**: The main gameplay revolves around a grid of randomly displayed emojis. Users must click on each unique emoji only once. This dynamic display is powered by React components for smooth rendering and interaction.
-- **Game Logic**: If a user clicks on an emoji they've already selected, the game is lost. The app provides immediate feedback through the "Lose Game" view and offers the option to play again, while keeping track of the highest score.
-- **Winning Condition**: When users successfully click all unique emojis without repetition, they are greeted with a "Won Game" view. This victory screen acknowledges the player's achievement and resets the game state for a new round.
-- **Score Management**: The app tracks both the current and top scores, motivating players to keep improving. The scores are updated in real-time, offering players constant feedback on their performance.
-- **Replay Option**: After finishing a game, whether won or lost, users can choose to play again without losing their top score. This feature provides a seamless way to restart the challenge.
+- **Frequency Display**: The core gameplay involves a dynamic display of frequencies. Users are prompted to click on the correct frequency as quickly as possible. The frequency values and timing are generated using React components that ensure smooth updates and rendering.
+- **Timer and Score Tracking**: A countdown timer challenges users to respond within the time limit, and the scoring system keeps track of their accuracy. Players can monitor their score throughout the game, with a final tally displayed at the end.
+- **Game Modes**: Flex Reflex offers multiple difficulty levels, allowing users to challenge themselves at various speeds and frequencies. These modes are selectable through an intuitive UI, making the game accessible to both beginners and experienced players.
+- **Responsive Design**: The application is fully responsive, ensuring an optimal experience across devices, whether on desktop or mobile. The design is minimalistic yet engaging, providing a smooth, distraction-free interface.
+- **Play Again Option**: After completing a round, users can quickly restart the game to improve their score or try a different difficulty level. The game loop ensures continuous engagement.
 
-**Technologies used**: React JS, CSS, State Management, Conditional Rendering
+**Technologies used**: React JS, CSS, State Management, Responsive Design
 
-In summary, the Frequency Game ReactJS application offers an enjoyable and mentally stimulating platform for users to test and improve their memory skills. It leverages React's powerful components and state management capabilities to provide a dynamic, responsive, and entertaining user experience.
+In summary, **Flex Reflex** is a fast-paced, interactive game that sharpens users' reflexes and frequency recognition skills. It combines an elegant, minimalist design with powerful React functionality to create a smooth and engaging gaming experience for users of all skill levels.
